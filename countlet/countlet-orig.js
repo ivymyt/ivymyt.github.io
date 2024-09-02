@@ -14,7 +14,7 @@
  */
 
 /* These are customizable. */
-var aqp_ct_cssUrl = 'http://members.shaw.ca/ivyt/toolbox/countlet.css';
+var aqp_ct_cssUrl = 'http://ivymyt.github.io/countlet/countlet.css';
 var aqp_ct_consoleL = 10, aqp_ct_consoleT = 10;
 /* End customizable variables. */
 
