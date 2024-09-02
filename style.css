@@ -16,7 +16,7 @@ a {
     bottom center/
     var(--underline-width, 0%) 1px
     no-repeat;
-  color: #89A7E8;
+  color: #5384d1;
   display: inline-block;
   text-decoration: none;
   transition: background-size 0.3s;
@@ -29,9 +29,6 @@ h1, h2, h3, h4, dt {
   font-family: Aleo, serif;
   font-weight: 400;
   color: #000;
-}
-h1 a, h2 a, h3 a, h4 a, dt a {
-  color: #5384d1;
 }
 
 dt { margin-top: 1em; }
