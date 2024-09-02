@@ -1,12 +1,7 @@
 html {
   font-family: Helvetica Neue, sans-serif;
-  color: #333;
+  color: #555;
   line-height: 1.6;
-}
-
-h1, h2, h3, h4, dt {
-  font-family: Aleo, serif;
-  font-weight: 300;
 }
 
 main {
@@ -15,14 +10,6 @@ main {
   padding: 0 2em;
   max-width: 40em;
 }
-dt:before {
-  display: block; 
-  content: "";
-}
-dt, dd {
-  display: inline;
-}
-dd { margin-left: 0; }
 
 a {
   background: linear-gradient(#eee 0 0) 
@@ -34,7 +21,32 @@ a {
   text-decoration: none;
   transition: background-size 0.3s;
 }
-
 a:hover {
   --underline-width: 100%;
+}
+
+h1, h2, h3, h4, dt {
+  font-family: Aleo, serif;
+  font-weight: 400;
+  color: #000;
+}
+h1 a, h2 a, h3 a, h4 a, dt a {
+  color: #5384d1;
+}
+
+dt { margin-top: 1em; }
+dd { margin-left: 0; }
+
+/* Tablet+ media query */
+
+@media (min-width: 800px) {
+
+  dt:before {
+    display: block; 
+    content: "";
+  }
+  dt, dd {
+    display: inline;
+  }
+
 }
