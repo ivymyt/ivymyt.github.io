@@ -2,7 +2,7 @@
 Text Countlet v0.6
 last revision: 2010-04-26
 
-Contact Ivy Tsai ( http://github.com/ivymyt ) regarding bugs,
+Contact Ivy Tsai ( https://github.com/ivymyt ) regarding bugs,
 suggestions, and improvements.
 
 This work is licensed under the
