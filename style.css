@@ -1,0 +1,40 @@
+html {
+  font-family: Helvetica Neue, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, dt {
+  font-family: Aleo, serif;
+  font-weight: 300;
+}
+
+main {
+  margin: 2.5em auto;
+  border-left: 1px solid #eee;
+  padding: 0 2em;
+  max-width: 40em;
+}
+dt:before {
+  display: block; 
+  content: "";
+}
+dt, dd {
+  display: inline;
+}
+dd { margin-left: 0; }
+
+a {
+  background: linear-gradient(#eee 0 0) 
+    bottom center/
+    var(--underline-width, 0%) 1px
+    no-repeat;
+  color: #89A7E8;
+  display: inline-block;
+  text-decoration: none;
+  transition: background-size 0.3s;
+}
+
+a:hover {
+  --underline-width: 100%;
+}
